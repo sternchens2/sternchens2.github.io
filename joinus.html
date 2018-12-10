@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>joinus</title>
+
+<style>
+body {	background-image: url('main1.png');}
+table { background-color: #fbe4ee; }
+table,th,td {border: 1px solid #a9a8a8;
+            border-collapse: collapse;}
+th,td { padding: 5px;
+        color: #8050a2;}
+button { background-color:#f9efff; }
+.cake {margin-top: 280px;
+       margin-bottom: 10px; }
+
+</style>
+</head>
+<body>
+	<center>
+	<div class="cake"><img src="cake.png"></div>
+
+<table >
+	<tr>
+		<td colspan='2' align="center"> 회원가입</td>
+	</tr>
+	<tr>
+		<th>ID</th>
+		<td><input type="text" name="name">
+			<button>중복확인</button>
+		</td>
+	</tr>
+	<tr>
+		<th>비밀번호</th>
+		<td><input type="password" name="password"></td>
+	</tr>
+	<tr>
+		<th>비밀번호 확인</th>
+		<td><input type="password" name="password2"></td>
+	</tr>
+	<tr>
+		<th>전화번호</th>
+		<td><input type="text" name="phone"> (- 제외하고 입력)</td>
+
+	</tr>
+	<tr align="left">
+		<th align="center">이메일</th>
+		<th>
+		<input type="text" name="mail">@
+		<select name='email'> 
+			<option value="네이버">naver.com</option>
+			<option value="구글">gmail.com</option>
+		</select>
+	    </th>
+	</tr>
+	<tr>
+		<th>자기소개</th>
+		<td><textarea rows='3' cols='35' name='p'></textarea></td>
+	</tr>
+    <tr>
+    	<td colspan="2" align="center" > <a href="index.html"><button>로그인</button></a>
+    	</td>
+    </tr>
+</table>
+</center>
+
+
+
+</body>
+</html>
